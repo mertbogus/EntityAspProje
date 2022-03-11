@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a968fccd78b04b959a509fface0fc145" Name="Diagram1">
+        <EntityTypeShape EntityType="BonusAspDBModel.TBL_KATEGORI" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BonusAspDBModel.TBL_MUSTERI" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BonusAspDBModel.TBL_PERSONEL" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BonusAspDBModel.TBL_SATIS" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BonusAspDBModel.TBL_URUNLER" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="BonusAspDBModel.FK_TBL_URUNLER_TBL_KATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="BonusAspDBModel.FK_TBL_SATIS_TBL_MUSTERI" ManuallyRouted="false" />
+        <AssociationConnector Association="BonusAspDBModel.FK_TBL_SATIS_TBL_PERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="BonusAspDBModel.FK_TBL_SATIS_TBL_URUNLER" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BonusAspDBModel.TBL_ADMIN" Width="1.5" PointX="5.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
